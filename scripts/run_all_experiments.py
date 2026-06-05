@@ -2,10 +2,10 @@ from pathlib import Path
 import numpy as np
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from oulu_info_theory.entropy import entropy
-from oulu_info_theory.channel_capacity import awgn_capacity
-from oulu_info_theory.bsc_bec import bsc_capacity
-from oulu_info_theory.ber_ser import ber_from_errors
+from gunnchos_info_theory.entropy import entropy
+from gunnchos_info_theory.channel_capacity import awgn_capacity
+from gunnchos_info_theory.bsc_bec import bsc_capacity
+from gunnchos_info_theory.ber_ser import ber_from_errors
 
 ROOT = Path(__file__).resolve().parents[1]
 FIG = ROOT / 'results/figures'; FIG.mkdir(parents=True, exist_ok=True)

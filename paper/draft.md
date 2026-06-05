@@ -1,3 +1,3 @@
-# Oulu WCE Information Theory & Channel Coding Lab
+# gunnchOS Information Theory & Channel Coding Lab
 
 Draft research notes — not peer reviewed.

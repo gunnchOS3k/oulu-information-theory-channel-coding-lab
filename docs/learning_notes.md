@@ -2,4 +2,4 @@
 
 Entropy, capacity, and introductory channel coding for wireless links.
 
-Not affiliated with University of Oulu. Not accepted PhD status.
+Not affiliated with target wireless communications engineering programs. Not accepted PhD status.
