@@ -108,5 +108,6 @@
   "methods": "Methods are entropy, bsc_capacity, and hamming74_encode in src/gunnchos_info_theory. The only numeric result text is results/tables/channel_summary.md: H fair coin=1.000 and BSC p=0.1 C=0.531. LDPC and polar files are stubs. This is a calculated reference, not a measured coded link.",
   "cards": [],
   "runtime_mode": "PRECOMPUTED",
-  "runtime_boot": false
+  "runtime_boot": false,
+  "evidence_class": "REFERENCE_IMPLEMENTATION"
 }
