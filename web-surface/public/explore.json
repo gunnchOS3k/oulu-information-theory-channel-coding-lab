@@ -1,0 +1,111 @@
+{
+  "schema": "gunnchos.surfacekit.v2",
+  "measured_topology": false,
+  "diagram_note": "Reading aid built from repository headings. It is not a measured topology and it is not a live system.",
+  "nodes": [
+    {
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "id": "what-this-is",
+      "label": "What this is"
+    },
+    {
+      "id": "why-wireless-engineering-readiness-cares",
+      "label": "Why wireless engineering readiness cares"
+    },
+    {
+      "id": "beginner-mental-model",
+      "label": "Beginner mental model"
+    }
+  ],
+  "rows": [
+    {
+      "source": "README.md",
+      "scenario_id": "Overview",
+      "site_id": "Oulu preparation",
+      "ethical_framing": "# gunnchOS Information Theory & Channel Coding Lab > This repo is part of the **gunnchOS wireless engineering spine**: hands-on labs that strengthen the technical foundation behind 7GC, AI-RAN, RF, DSP, MIMO, measurement, and **6G PhD readiness** for target wireless communications engineering programs. Not affiliated with any university."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "What this is",
+      "site_id": "Oulu preparation",
+      "ethical_framing": "Research and teaching lab for **target wireless communications engineering programs**-aligned skills \u2014 built as an independent portfolio project."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Why wireless engineering readiness cares",
+      "site_id": "Oulu preparation",
+      "ethical_framing": "Entropy, capacity, and introductory channel coding for wireless links."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Beginner mental model",
+      "site_id": "Oulu preparation",
+      "ethical_framing": "Start with `docs/learning_notes.md`, run `make e2e`, open `results/figures/`."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Research question",
+      "site_id": "Oulu preparation",
+      "ethical_framing": "See `paper/draft.md`."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Commands",
+      "site_id": "Oulu preparation",
+      "ethical_framing": "make install && make test && make e2e"
+    }
+  ],
+  "sources": [],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "body": "# gunnchOS Information Theory & Channel Coding Lab > This repo is part of the **gunnchOS wireless engineering spine**: hands-on labs that strengthen the technical foundation behind 7GC, AI-RAN, RF, DSP, MIMO, measurement, and **6G PhD readiness** for target wireless communications engineering programs. Not affiliated with any university."
+    },
+    {
+      "id": "what-this-is",
+      "title": "What this is",
+      "body": "Research and teaching lab for **target wireless communications engineering programs**-aligned skills \u2014 built as an independent portfolio project."
+    },
+    {
+      "id": "why-wireless-engineering-readiness-cares",
+      "title": "Why wireless engineering readiness cares",
+      "body": "Entropy, capacity, and introductory channel coding for wireless links."
+    },
+    {
+      "id": "beginner-mental-model",
+      "title": "Beginner mental model",
+      "body": "Start with `docs/learning_notes.md`, run `make e2e`, open `results/figures/`."
+    },
+    {
+      "id": "research-question",
+      "title": "Research question",
+      "body": "See `paper/draft.md`."
+    },
+    {
+      "id": "commands",
+      "title": "Commands",
+      "body": "make install && make test && make e2e"
+    }
+  ],
+  "artifacts": [
+    "results/experiment_summary.md",
+    "results/figures/ber_curves.png",
+    "results/figures/capacity_curves.png",
+    "results/tables/channel_summary.md",
+    "paper/draft.md",
+    "paper/experiments.md",
+    "paper/figures_needed.md",
+    "docs/PORTFOLIO_LINKS.md",
+    "docs/TARGET_PROGRAM_ALIGNMENT.md",
+    "docs/diagrams/README.md",
+    "docs/learning_notes.md"
+  ],
+  "methods": "",
+  "cards": [],
+  "runtime_mode": "PRECOMPUTED",
+  "runtime_boot": false
+}
