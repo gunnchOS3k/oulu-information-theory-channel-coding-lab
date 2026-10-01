@@ -1,0 +1,21 @@
+{
+  "repo": "oulu-information-theory-channel-coding-lab",
+  "productName": "Channel coding preparation lab",
+  "family": "Oulu preparation",
+  "classification": "STATIC_RESEARCH_SURFACE_WORKER",
+  "acceptedSha": "fe82a927ce54d8d81bf2a9eb5232a08431832a68",
+  "status": "STAGING_WORKER",
+  "summary": "Independent portfolio lab for information theory and channel coding preparation.",
+  "capabilities": [
+    "Read the preparation scope",
+    "Open the source repository"
+  ],
+  "limitations": [
+    "No Oulu affiliation is claimed",
+    "No peer-reviewed coding result is claimed by this page"
+  ],
+  "sourceUrl": "https://github.com/gunnchOS3k/oulu-information-theory-channel-coding-lab",
+  "returnUrlEnv": "GUNNCHOS_PORTAL_URL",
+  "returnUrl": "https://gunnchos-site.gunnchos-finds.workers.dev",
+  "workerName": "gunnchos-oulu-channel-coding"
+}
