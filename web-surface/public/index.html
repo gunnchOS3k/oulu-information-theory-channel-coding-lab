@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Channel coding preparation lab · gunnchOS</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body data-surfacekit="v2" data-theme="dark">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="top">
+    <p class="mark">gunnchOS</p>
+    <nav class="tools" aria-label="Surface">
+      <button type="button" id="theme-toggle">Light theme</button>
+      <a id="portal-return" href="#return" aria-label="Return to gunnchOS">← gunnchOS</a>
+    </nav>
+  </header>
+  <main id="content">
+    <p class="kicker">Oulu preparation · STAGING_WORKER</p>
+    <h1>Channel coding preparation lab</h1>
+    <p class="lead">Independent portfolio lab for information theory and channel coding preparation.</p>
+    <p class="note">Independent readiness lab. This page is not a University of Oulu affiliation and it is not a live Oulu testbed.</p>
+    <p><a class="cta" id="primary-action" href="#explore">Explore evidence</a></p>
+    <section id="explore" aria-labelledby="explore-title">
+      <h2 id="explore-title">Explore evidence</h2>
+      <p>Evidence class: REFERENCE_IMPLEMENTATION. The selector lists calculated reference rows. LDPC and polar files are stubs, not a measured channel.</p>
+      <p id="diagram-note"></p>
+      <div class="layout">
+        <div>
+          <svg id="diagram" role="img" aria-labelledby="diagram-note" viewBox="0 0 640 160"></svg>
+          <label for="row-select">Repository record</label>
+          <select id="row-select"></select>
+          <label for="row-filter">Filter records</label>
+          <input id="row-filter" type="search" placeholder="Filter by text in the repository records">
+        </div>
+        <div id="detail" tabindex="0" aria-live="polite"></div>
+      </div>
+      <div id="directory"></div>
+      <table id="evidence">
+        <caption>Records copied from this repository</caption>
+        <thead><tr id="evidence-head"></tr></thead>
+        <tbody id="evidence-body"></tbody>
+      </table>
+    </section>
+    <section id="overview" aria-labelledby="overview-title">
+      <h2 id="overview-title">Overview</h2>
+      <div class="cards"><article><h3>Overview</h3><p># gunnchOS Information Theory &amp; Channel Coding Lab &gt; This repo is part of the **gunnchOS wireless engineering spine**: hands-on labs that strengthen the technical foundation behind 7GC, AI-RAN, RF, DSP, MIMO, measurement, and **6G PhD readiness** for target wireless communications engineering programs. Not affiliated with any university.</p></article><article><h3>What this is</h3><p>Research and teaching lab for **target wireless communications engineering programs**-aligned skills — built as an independent portfolio project.</p></article><article><h3>Why wireless engineering readiness cares</h3><p>Entropy, capacity, and introductory channel coding for wireless links.</p></article></div>
+    </section>
+    <section id="methods" aria-labelledby="methods-title">
+      <h2 id="methods-title">Methods</h2>
+      <p>Methods are entropy, bsc_capacity, and hamming74_encode in src/gunnchos_info_theory. The only numeric result text is results/tables/channel_summary.md: H fair coin=1.000 and BSC p=0.1 C=0.531. LDPC and polar files are stubs. This is a calculated reference, not a measured coded link.</p>
+      <p>Native research runtimes stay on a local checkout. This page shows repository records only.</p>
+    </section>
+    <section id="artifacts" aria-labelledby="artifacts-title">
+      <h2 id="artifacts-title">Artifacts</h2>
+      <ul><li><code>results/experiment_summary.md</code></li><li><code>results/figures/ber_curves.png</code></li><li><code>results/figures/capacity_curves.png</code></li><li><code>results/tables/channel_summary.md</code></li><li><code>paper/draft.md</code></li><li><code>paper/experiments.md</code></li><li><code>paper/figures_needed.md</code></li><li><code>docs/PORTFOLIO_LINKS.md</code></li><li><code>docs/TARGET_PROGRAM_ALIGNMENT.md</code></li><li><code>docs/diagrams/README.md</code></li><li><code>docs/learning_notes.md</code></li></ul>
+    </section>
+    <section id="source" aria-labelledby="source-title">
+      <h2 id="source-title">Source</h2>
+      <p><a href="https://github.com/gunnchOS3k/oulu-information-theory-channel-coding-lab">Source repository</a></p>
+      <p>Pinned source <code>fe82a927ce54d8d81bf2a9eb5232a08431832a68</code></p>
+    </section>
+    <section id="limits" aria-labelledby="limits-title">
+      <h2 id="limits-title">Limitations</h2>
+      <ul><li>No Oulu affiliation is claimed</li><li>No peer-reviewed coding result is claimed by this page</li></ul>
+    </section>
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About / Build status / Evidence</h2>
+      <h2 id="what">What is this?</h2>
+      <p>Independent portfolio lab for information theory and channel coding preparation.</p>
+      <p>The research code is not executing here. This is a research surface.</p>
+      <h2 id="why">Why does it exist?</h2>
+      <p>It gives this repository a public web surface inside the gunnchOS ecosystem without pretending the original runtime runs on Cloudflare Workers.</p>
+      <h2 id="today">What can I actually do with it today?</h2>
+      <p>Use the primary action to inspect repository records, then open the source for the local toolchain.</p>
+      <h2 id="unfinished">What is not finished?</h2>
+      <ul><li>No Oulu affiliation is claimed</li><li>No peer-reviewed coding result is claimed by this page</li></ul>
+      <p class="badge">STAGING_WORKER</p>
+      <p>Runtime mode on this page: PRECOMPUTED. No remote model call is made.</p>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
